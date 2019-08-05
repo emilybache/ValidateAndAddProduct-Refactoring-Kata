@@ -56,4 +56,16 @@ public class Product {
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "name='" + name + '\'' +
+                ", type='" + type + '\'' +
+                ", weight=" + weight +
+                ", family=" + family +
+                ", range=" + range +
+                '}';
+    }
 }

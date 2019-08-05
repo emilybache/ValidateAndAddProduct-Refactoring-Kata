@@ -24,22 +24,13 @@ public class ProductServiceTest {
         FakeDatabase db = new FakeDatabase();
         ProductService sut = new ProductService(db);
         Response response = sut.validateAndAdd(productData);
-        String responseString = "Response("
-                + response.getProductId() + ", "
-                + response.getStatusCode() + ", "
-                + response.getErrorMessage()
-                + ")";
+
+        // Assert
         String productString = "";
         if (db.product != null) {
-            productString = "Product("
-                    + db.product.getName() + ", "
-                    + db.product.getType() + ", "
-                    + db.product.getWeight() + ", "
-                    + db.product.getFamily() + ", "
-                    + db.product.getRange()
-                    + ")";
+            productString = db.product.toString();
         }
-        return responseString + " " + productString;
+        return response.toString() + " " + productString;
     }
 
     class FakeDatabase extends DatabaseAccess {
