@@ -1,7 +1,7 @@
 ValidateAndAddProduct Refactoring Kata
 =======================================
 
-This refactoring kata mixes logic for both validating input data and creating a new product in the dabase. It might be valuable to separate these two into separate 'Phases' (see Martin Fowler's ['Split Phase' refactoring](https://refactoring.com/catalog/splitPhase.html)) Before you refactor it, you will want some better test cases. There is one test case to start you off - using an Approval Testing framework. See [https://approvaltests.com/](Approval Tests website).
+This refactoring kata mixes logic for both validating input data and creating a new product in the dabase. It might be valuable to separate these two into separate 'Phases' (see Martin Fowler's ['Split Phase' refactoring](https://refactoring.com/catalog/splitPhase.html)) Before you refactor it, you will want some better test cases. There is one test case to start you off - using an Approval Testing framework. See the [https://approvaltests.com](Approval Tests website).
 
 The change you need to make
 ---------------------------
