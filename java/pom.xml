@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.codingdojo</groupId>
-    <artifactId>Validation-Refactoring-Kata</artifactId>
+    <artifactId>ValidateAndAddProduct-Refactoring-Kata</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
