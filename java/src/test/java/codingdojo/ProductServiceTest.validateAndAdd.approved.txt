@@ -1,1 +1,1 @@
-Response(1, 0, Product Successfully Added)
+Response(1, 0, Product Successfully Added) Product(Sample product, Lipstick, 5.0, LIPS, BUDGET)
