@@ -26,4 +26,13 @@ public class Response {
     public String getErrorMessage() {
         return errorMessage;
     }
+
+    @Override
+    public String toString() {
+        return "Response{" +
+                "productId=" + productId +
+                ", statusCode=" + statusCode +
+                ", errorMessage='" + errorMessage + '\'' +
+                '}';
+    }
 }
