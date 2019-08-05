@@ -1,4 +1,4 @@
-from approvaltests import verify
+from approvaltests import verify_all_combinations
 
 from database import DatabaseAccess
 from product_service import validate_and_add
@@ -14,14 +14,19 @@ class FakeDatabase(DatabaseAccess):
         return 1
 
 
-def test_validate_and_add():
-    # Arrange
-    product_data = ProductFormData("Sample product", "Lipstick", 5, 10, False)
+def do_validate_and_add(name, product_type, weight, price, recyclable):
+    product_data = ProductFormData(name, product_type, weight, price, recyclable)
     db = FakeDatabase()
-
-    # Act
     response = validate_and_add(product_data, db)
+    return f"{response} {db.product}"
 
-    # Assert
-    response_and_product = f"{response} {db.product}"
-    verify(response_and_product)
+
+def test_validate_and_add():
+    verify_all_combinations(do_validate_and_add,
+                            [["", "Sample product", "Sample Queen product"],
+                             ["", "Lipstick", "Eyeshadow", "Mascara", "Blusher", "Foundation", "Unknown"],
+                             [-1, 5, 11],
+                             [10, 11, 21, 26],
+                             [False, True]
+                             ]
+                            )
