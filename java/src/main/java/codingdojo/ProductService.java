@@ -13,10 +13,10 @@ public class ProductService {
      * If it is correct, add the new product to the database.
      */
     public Response validateAndAdd(ProductFormData productData) {
-        if (productData.getName() == null || "".equals(productData.getName())) {
+        if ("".equals(productData.getName())) {
             return new Response(0, -2, "Missing Name");
         }
-        if (productData.getType() == null || "".equals(productData.getType()) ) {
+        if ("".equals(productData.getType()) ) {
             return new Response(0, -2, "Missing Type");
         }
         Product product = new Product(productData.getName());
@@ -36,7 +36,8 @@ public class ProductService {
             product.setFamily(ProductFamily.LIPS);
             if (productData.getSuggestedPrice() > 10) {
                 product.setRange(ProductRange.PROFESSIONAL);
-            } else if (productData.getSuggestedPrice() > 20) {
+            }
+            if (productData.getSuggestedPrice() > 20) {
                 if (productData.getWeight() < 10) {
                     return new Response(0, -1, "Error - failed quality check for Queen Range");
                 }
@@ -48,7 +49,8 @@ public class ProductService {
             product.setFamily(ProductFamily.LASHES);
             if (productData.getSuggestedPrice() > 15) {
                 product.setRange(ProductRange.PROFESSIONAL);
-            } else if (productData.getSuggestedPrice() > 25 && productData.isPackagingRecyclable()) {
+            }
+            if (productData.getSuggestedPrice() > 25 && productData.isPackagingRecyclable()) {
                 product.setRange(ProductRange.QUEEN);
             }
         }
@@ -64,7 +66,7 @@ public class ProductService {
             if ("Foundation".equals(productData.getType()) && product.getName().contains("Queen")) {
                 product.setRange(ProductRange.QUEEN);
             }
-            if ("Blusher".equals(productData.getType()) && productData.getWeight() > 25) {
+            if ("Blusher".equals(productData.getType()) && productData.getWeight() > 10) {
                 return new Response(0, -3, "Error - weight too high");
             }
         }

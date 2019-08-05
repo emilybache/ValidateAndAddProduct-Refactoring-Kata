@@ -1,5 +1,6 @@
 package codingdojo;
 
+import org.approvaltests.combinations.CombinationApprovals;
 import org.junit.jupiter.api.Test;
 
 import static org.approvaltests.Approvals.verify;
@@ -8,18 +9,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ProductServiceTest {
     @Test
     void validateAndAdd() {
-        String name = "Sample product";
-        String type = "Lipstick";
-        double weight = 5;
-        double price = 10;
-        boolean recyclable = false;
 
-        String toVerify = doValidateAndAdd(name, type, weight, price, recyclable);
-
-        verify(toVerify);
+        CombinationApprovals.verifyAllCombinations(this::doValidateAndAdd,
+                new String[]{"", "Sample product", "Sample Queen product"},
+                new String[]{"", "Lipstick", "Eyeshadow", "Mascara", "Blusher", "Foundation", "Unknown"},
+                new Double[]{-1D, 5D, 11D},
+                new Double[]{10D, 11D, 21D, 26D},
+                new Boolean[]{false, true}
+                );
     }
 
-    private String doValidateAndAdd(String name, String type, double weight, double price, boolean recyclable) {
+    private String doValidateAndAdd(String name, String type, Double weight, Double price, Boolean recyclable) {
         ProductFormData productData = new ProductFormData(name, type, weight, price, recyclable);
         FakeDatabase db = new FakeDatabase();
         ProductService sut = new ProductService(db);
@@ -29,13 +29,16 @@ public class ProductServiceTest {
                 + response.getStatusCode() + ", "
                 + response.getErrorMessage()
                 + ")";
-        String productString = "Product("
-                + db.product.getName() + ", "
-                + db.product.getType() + ", "
-                + db.product.getWeight() + ", "
-                + db.product.getFamily() + ", "
-                + db.product.getRange()
-                + ")";
+        String productString = "";
+        if (db.product != null) {
+            productString = "Product("
+                    + db.product.getName() + ", "
+                    + db.product.getType() + ", "
+                    + db.product.getWeight() + ", "
+                    + db.product.getFamily() + ", "
+                    + db.product.getRange()
+                    + ")";
+        }
         return responseString + " " + productString;
     }
 
