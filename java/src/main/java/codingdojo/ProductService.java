@@ -77,6 +77,6 @@ public class ProductService {
             return new Response(0, -1, "Unknown product type " + productData.getType());
         }
 
-        return new Response(db.storeProduct(product), 0, "");
+        return new Response(db.storeProduct(product), 0, "Product Successfully Added");
     }
 }
