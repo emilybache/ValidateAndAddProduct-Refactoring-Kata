@@ -194,10 +194,10 @@
 [Sample product, Lipstick, -1.0, 10.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample product, Lipstick, -1.0, 11.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample product, Lipstick, -1.0, 11.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
-[Sample product, Lipstick, -1.0, 21.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample product, Lipstick, -1.0, 21.0, true] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample product, Lipstick, -1.0, 26.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample product, Lipstick, -1.0, 26.0, true] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
+[Sample product, Lipstick, -1.0, 21.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample product, Lipstick, -1.0, 21.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample product, Lipstick, -1.0, 26.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample product, Lipstick, -1.0, 26.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample product, Lipstick, 5.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.0, family=LIPS, range=BUDGET} 
 [Sample product, Lipstick, 5.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.0, family=LIPS, range=PROFESSIONAL} 
 [Sample product, Lipstick, 5.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.0, family=LIPS, range=PROFESSIONAL} 
@@ -362,10 +362,10 @@
 [Sample Queen product, Lipstick, -1.0, 10.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Lipstick, -1.0, 11.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Lipstick, -1.0, 11.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
-[Sample Queen product, Lipstick, -1.0, 21.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Lipstick, -1.0, 21.0, true] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Lipstick, -1.0, 26.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Lipstick, -1.0, 26.0, true] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
+[Sample Queen product, Lipstick, -1.0, 21.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample Queen product, Lipstick, -1.0, 21.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample Queen product, Lipstick, -1.0, 26.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample Queen product, Lipstick, -1.0, 26.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Lipstick, 5.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Lipstick', weight=5.0, family=LIPS, range=BUDGET} 
 [Sample Queen product, Lipstick, 5.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Lipstick', weight=5.0, family=LIPS, range=PROFESSIONAL} 
 [Sample Queen product, Lipstick, 5.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Lipstick', weight=5.0, family=LIPS, range=PROFESSIONAL} 

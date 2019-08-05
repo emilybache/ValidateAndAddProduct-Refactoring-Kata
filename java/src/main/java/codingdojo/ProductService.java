@@ -38,7 +38,7 @@ public class ProductService {
                 product.setRange(ProductRange.PROFESSIONAL);
             }
             if (productData.getSuggestedPrice() > 20) {
-                if (productData.getWeight() < 10) {
+                if (productData.getWeight() > 0 && productData.getWeight() < 10) {
                     return new Response(0, -1, "Error - failed quality check for Queen Range");
                 }
                 product.setRange(ProductRange.QUEEN);
