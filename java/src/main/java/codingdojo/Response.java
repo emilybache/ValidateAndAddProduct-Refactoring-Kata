@@ -6,13 +6,13 @@ package codingdojo;
 public class Response {
     private final int productId;
     private final int statusCode;
-    private final String errorMessage;
+    private final String message;
 
-    public Response(int productId, int statusCode, String errorMessage) {
+    public Response(int productId, int statusCode, String message) {
 
         this.productId = productId;
         this.statusCode = statusCode;
-        this.errorMessage = errorMessage;
+        this.message = message;
     }
 
     public int getProductId() {
@@ -23,8 +23,8 @@ public class Response {
         return statusCode;
     }
 
-    public String getErrorMessage() {
-        return errorMessage;
+    public String getMessage() {
+        return message;
     }
 
     @Override
@@ -32,7 +32,7 @@ public class Response {
         return "Response{" +
                 "productId=" + productId +
                 ", statusCode=" + statusCode +
-                ", errorMessage='" + errorMessage + '\'' +
+                ", message='" + message + '\'' +
                 '}';
     }
 }
