@@ -296,19 +296,19 @@
 [Sample product, Foundation, -1.0, 26.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample product, Foundation, 5.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=BUDGET} 
 [Sample product, Foundation, 5.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
-[Sample product, Foundation, 5.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=BUDGET} 
+[Sample product, Foundation, 5.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 5.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
-[Sample product, Foundation, 5.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=BUDGET} 
+[Sample product, Foundation, 5.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 5.0, 21.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
-[Sample product, Foundation, 5.0, 26.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=BUDGET} 
+[Sample product, Foundation, 5.0, 26.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 5.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 11.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=BUDGET} 
 [Sample product, Foundation, 11.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
-[Sample product, Foundation, 11.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=BUDGET} 
+[Sample product, Foundation, 11.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 11.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
-[Sample product, Foundation, 11.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=BUDGET} 
+[Sample product, Foundation, 11.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 11.0, 21.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
-[Sample product, Foundation, 11.0, 26.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=BUDGET} 
+[Sample product, Foundation, 11.0, 26.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Foundation, 11.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
 [Sample product, Unknown, -1.0, 10.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample product, Unknown, -1.0, 10.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
@@ -462,22 +462,22 @@
 [Sample Queen product, Foundation, -1.0, 21.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Foundation, -1.0, 26.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Foundation, -1.0, 26.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
-[Sample Queen product, Foundation, 5.0, 10.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 5.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 5.0, 11.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 5.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 5.0, 21.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 5.0, 21.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 5.0, 26.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 5.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 11.0, 10.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 11.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 11.0, 11.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 11.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 11.0, 21.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 11.0, 21.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=QUEEN} 
-[Sample Queen product, Foundation, 11.0, 26.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
-[Sample Queen product, Foundation, 11.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=QUEEN} 
+[Sample Queen product, Foundation, 5.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=BUDGET} 
+[Sample Queen product, Foundation, 5.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 5.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 5.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 5.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 5.0, 21.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 5.0, 26.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 5.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=BUDGET} 
+[Sample Queen product, Foundation, 11.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 21.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 26.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample Queen product, Foundation, 11.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen product', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
 [Sample Queen product, Unknown, -1.0, 10.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Unknown, -1.0, 10.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
 [Sample Queen product, Unknown, -1.0, 11.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  

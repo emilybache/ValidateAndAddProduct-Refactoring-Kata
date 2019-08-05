@@ -25,10 +25,18 @@ public class ProductService {
         if ("Eyeshadow".equals(productData.getType()) || "Mascara".equals(productData.getType())) {
             product.setType(productData.getType());
             product.setFamily(ProductFamily.EYES);
+            if ("Eyeshadow".equals(productData.getType()) && product.getName().contains("Queen")) {
+                product.setRange(ProductRange.QUEEN);
+            }
         }
         product.setRange(ProductRange.BUDGET);
         if (productData.isPackagingRecyclable()) {
             product.setRange(ProductRange.PROFESSIONAL);
+        }
+        if ("Foundation".equals(productData.getType())) {
+            if (productData.getSuggestedPrice() > 10) {
+                product.setRange(ProductRange.PROFESSIONAL);
+            }
         }
 
         if ("Lipstick".equals(productData.getType())) {
@@ -63,9 +71,6 @@ public class ProductService {
         if ("Blusher".equals(productData.getType()) || "Foundation".equals(productData.getType())) {
             product.setType(productData.getType());
             product.setFamily(ProductFamily.SKIN);
-            if ("Foundation".equals(productData.getType()) && product.getName().contains("Queen")) {
-                product.setRange(ProductRange.QUEEN);
-            }
             if ("Blusher".equals(productData.getType()) && productData.getWeight() > 10) {
                 return new Response(0, -3, "Error - weight too high");
             }
