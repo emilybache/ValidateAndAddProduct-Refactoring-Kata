@@ -1,0 +1,1 @@
+﻿Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5, family=LIPS, range=BUDGET}
