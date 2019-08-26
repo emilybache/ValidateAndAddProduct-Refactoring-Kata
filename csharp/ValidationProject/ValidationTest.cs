@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xunit;
 using ApprovalTests;
+using ApprovalTests.Combinations;
 using ApprovalTests.Reporters;
 
 namespace Validation
@@ -12,9 +13,21 @@ namespace Validation
     {
         [Fact]
         void ValidateAndAdd() {
-            // Arrange
-            var productData = new ProductFormData("Sample product",
-                "Lipstick", 5D, 10D, false);
+            
+            CombinationApprovals.VerifyAllCombinations(DoValidateAndAdd,
+                new string[]{"", "Sample product", "Sample Queen product"},
+                new string[]{"", "Lipstick", "Eyeshadow", "Mascara", "Blusher", "Foundation", "Unknown"},
+                new double[]{-1D, 5D, 11D},
+                new double[]{10D, 11D, 21D, 26D},
+                new bool[]{false, true});
+
+        }
+
+        private string DoValidateAndAdd(string name, string type, double weight, double suggestedPrice,
+            bool packagingRecyclable)
+        {
+            var productData = new ProductFormData(name,
+                type, weight, suggestedPrice, packagingRecyclable);
             var db = new FakeDatabase();
             var sut = new ProductService(db);
 
@@ -23,13 +36,13 @@ namespace Validation
 
             // Assert
             var productString = "";
-            if (db.Product != null) {
+            if (db.Product != null)
+            {
                 productString = db.Product.ToString();
             }
+
             var responseAndProduct = response + " " + productString;
-            Approvals.Verify(responseAndProduct);
-
+            return responseAndProduct;
         }
-
     }
 }
