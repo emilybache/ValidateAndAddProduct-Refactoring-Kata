@@ -3,7 +3,7 @@ project(validate_and_add_product_refactoring_kata)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ValidateAndAddProduct
+add_executable(${PROJECT_NAME}
         ProductService.h ProductService.cpp
         ProductFormData.h ProductFormData.cpp
         Product.h Product.cpp
