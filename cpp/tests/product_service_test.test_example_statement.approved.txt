@@ -1,1 +1,505 @@
-Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.000000, family=1, range=1}
+(, , -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, , 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Lipstick, 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Eyeshadow, 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Mascara, 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Blusher, 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Foundation, 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(, Unknown, 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Name'}
+(Sample product, , -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, , 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample product, Lipstick, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Lipstick, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.000000, family=1, range=1}
+(Sample product, Lipstick, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.000000, family=1, range=2}
+(Sample product, Lipstick, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.000000, family=1, range=2}
+(Sample product, Lipstick, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.000000, family=1, range=2}
+(Sample product, Lipstick, 5, 21, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample product, Lipstick, 5, 21, 1) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample product, Lipstick, 5, 26, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample product, Lipstick, 5, 26, 1) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample product, Lipstick, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=11.000000, family=1, range=1}
+(Sample product, Lipstick, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=11.000000, family=1, range=2}
+(Sample product, Lipstick, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=11.000000, family=1, range=2}
+(Sample product, Lipstick, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=11.000000, family=1, range=2}
+(Sample product, Lipstick, 11, 21, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample product, Lipstick, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=11.000000, family=1, range=0}
+(Sample product, Lipstick, 11, 26, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample product, Lipstick, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=11.000000, family=1, range=0}
+(Sample product, Eyeshadow, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Eyeshadow, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample product, Eyeshadow, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample product, Eyeshadow, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample product, Eyeshadow, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample product, Eyeshadow, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample product, Eyeshadow, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample product, Eyeshadow, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample product, Eyeshadow, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample product, Eyeshadow, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample product, Eyeshadow, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample product, Eyeshadow, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample product, Eyeshadow, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample product, Eyeshadow, 11, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample product, Eyeshadow, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample product, Eyeshadow, 11, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample product, Eyeshadow, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample product, Mascara, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Mascara, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=1}
+(Sample product, Mascara, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample product, Mascara, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=1}
+(Sample product, Mascara, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample product, Mascara, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample product, Mascara, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample product, Mascara, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample product, Mascara, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=5.000000, family=2, range=0}
+(Sample product, Mascara, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=1}
+(Sample product, Mascara, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample product, Mascara, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=1}
+(Sample product, Mascara, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample product, Mascara, 11, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample product, Mascara, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample product, Mascara, 11, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample product, Mascara, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.000000, family=2, range=0}
+(Sample product, Blusher, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Blusher, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample product, Blusher, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample product, Blusher, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample product, Blusher, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample product, Blusher, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample product, Blusher, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample product, Blusher, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample product, Blusher, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample product, Blusher, 11, 10, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 10, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 11, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 11, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 21, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 21, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 26, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Blusher, 11, 26, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample product, Foundation, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Foundation, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=1}
+(Sample product, Foundation, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample product, Foundation, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=1}
+(Sample product, Foundation, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Foundation, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Foundation, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Foundation, 11, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Foundation, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Foundation, 11, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Foundation, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample product, Unknown, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample product, Unknown, 5, 10, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 10, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 11, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 11, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 21, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 21, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 26, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 5, 26, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 10, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 10, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 11, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 11, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 21, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 21, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 26, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample product, Unknown, 11, 26, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, , -1, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , -1, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 5, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 10, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 10, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 11, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 11, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 21, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 21, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 26, 0) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, , 11, 26, 1) => Response{productId=0, statusCode=-2, message='Missing Type'}
+(Sample Queen Product, Lipstick, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Lipstick, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=5.000000, family=1, range=1}
+(Sample Queen Product, Lipstick, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=5.000000, family=1, range=2}
+(Sample Queen Product, Lipstick, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=5.000000, family=1, range=2}
+(Sample Queen Product, Lipstick, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=5.000000, family=1, range=2}
+(Sample Queen Product, Lipstick, 5, 21, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample Queen Product, Lipstick, 5, 21, 1) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample Queen Product, Lipstick, 5, 26, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample Queen Product, Lipstick, 5, 26, 1) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample Queen Product, Lipstick, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=11.000000, family=1, range=1}
+(Sample Queen Product, Lipstick, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=11.000000, family=1, range=2}
+(Sample Queen Product, Lipstick, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=11.000000, family=1, range=2}
+(Sample Queen Product, Lipstick, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=11.000000, family=1, range=2}
+(Sample Queen Product, Lipstick, 11, 21, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample Queen Product, Lipstick, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=11.000000, family=1, range=0}
+(Sample Queen Product, Lipstick, 11, 26, 0) => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}
+(Sample Queen Product, Lipstick, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Lipstick', weight=11.000000, family=1, range=0}
+(Sample Queen Product, Eyeshadow, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Eyeshadow, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=5.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 11, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample Queen Product, Eyeshadow, 11, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=1}
+(Sample Queen Product, Eyeshadow, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Eyeshadow', weight=11.000000, family=0, range=2}
+(Sample Queen Product, Mascara, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Mascara, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=1}
+(Sample Queen Product, Mascara, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=1}
+(Sample Queen Product, Mascara, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=5.000000, family=2, range=0}
+(Sample Queen Product, Mascara, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=1}
+(Sample Queen Product, Mascara, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=1}
+(Sample Queen Product, Mascara, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 11, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 11, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=2}
+(Sample Queen Product, Mascara, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Mascara', weight=11.000000, family=2, range=0}
+(Sample Queen Product, Blusher, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Blusher, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample Queen Product, Blusher, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Blusher, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample Queen Product, Blusher, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Blusher, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample Queen Product, Blusher, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Blusher, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=1}
+(Sample Queen Product, Blusher, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Blusher', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Blusher, 11, 10, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 10, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 11, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 11, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 21, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 21, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 26, 0) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Blusher, 11, 26, 1) => Response{productId=0, statusCode=-3, message='Error - weight too high'}
+(Sample Queen Product, Foundation, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Foundation, 5, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=1}
+(Sample Queen Product, Foundation, 5, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 5, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 5, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 5, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 5, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 5, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 5, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=5.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 10, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=1}
+(Sample Queen Product, Foundation, 11, 10, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 11, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 11, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 21, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 21, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 26, 0) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Foundation, 11, 26, 1) => Response{productId=0, statusCode=0, message='Product Successfully Added'} Product{name='Sample Queen Product', type='Foundation', weight=11.000000, family=3, range=2}
+(Sample Queen Product, Unknown, -1, 10, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 10, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 11, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 11, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 21, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 21, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 26, 0) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, -1, 26, 1) => Response{productId=0, statusCode=-3, message='Weight error'}
+(Sample Queen Product, Unknown, 5, 10, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 10, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 11, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 11, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 21, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 21, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 26, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 5, 26, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 10, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 10, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 11, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 11, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 21, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 21, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 26, 0) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+(Sample Queen Product, Unknown, 11, 26, 1) => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}
+
