@@ -13,8 +13,10 @@ TEST_CASE ("test_validate_and_add") {
 
     std::string responseAndProduct;
     responseAndProduct.append(response.to_string());
-    responseAndProduct.append(" ");
-    responseAndProduct.append(db->product->to_string());
+    if (db->product) {
+        responseAndProduct.append(" ");
+        responseAndProduct.append(db->product->to_string());
+    }
 
     Approvals::verify(responseAndProduct);
 }
