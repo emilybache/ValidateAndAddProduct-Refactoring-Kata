@@ -8,7 +8,7 @@
 
 string doValidateAndAdd(const string &name, const string &type, float weight, float price, bool packagingRecyclable);
 
-TEST_CASE ("test_example_statement") {
+TEST_CASE ("test_validate_and_add") {
     std::vector<std::string> names{"", "Sample product", "Sample Queen Product"};
     std::vector<std::string> types{"", "Lipstick", "Eyeshadow", "Mascara", "Blusher", "Foundation", "Unknown"};
     std::vector<float> weights{-1, 5, 11};
