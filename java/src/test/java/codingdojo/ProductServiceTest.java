@@ -1,5 +1,6 @@
 package codingdojo;
 
+import org.approvaltests.combinations.CombinationApprovals;
 import org.junit.jupiter.api.Test;
 
 import static org.approvaltests.Approvals.verify;
@@ -8,18 +9,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ProductServiceTest {
     @Test
     void validateAndAdd() {
-        // Arrange
-        String name = "Sample product";
-        String productType = "Lipstick";
-        double weight = 5D;
-        double suggestedPrice = 10D;
-        boolean packagingRecyclable = false;
 
-        // Act
-        String responseAndProduct = doValidateAndAdd(name, productType, weight, suggestedPrice, packagingRecyclable);
-
-        // Assert
-        verify(responseAndProduct);
+        CombinationApprovals.verifyAllCombinations(this::doValidateAndAdd,
+                new String[] {"", "Sample product", "Sample Queen Product"},
+                new String[] {"", "Lipstick", "Eyeshadow", "Mascara", "Foundation", "Unknown", "Blusher"},
+                new Double[] {-1D, 5D, 10D, 11D},
+                new Double[] {10D, 11D, 21D, 26D},
+                new Boolean[] {true, false}
+        );
     }
 
     private String doValidateAndAdd(String name, String productType, double weight, double suggestedPrice, boolean packagingRecyclable) {
@@ -30,11 +27,10 @@ public class ProductServiceTest {
 
         Response response = sut.validateAndAdd(productData);
 
-        String productString = "";
+        String responseAndProduct = response.toString();
         if (db.product != null) {
-            productString = db.product.toString();
+            responseAndProduct += " " + db.product.toString();
         }
-        String responseAndProduct = response.toString() + " " + productString;
         return responseAndProduct;
     }
 
