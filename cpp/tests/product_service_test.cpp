@@ -4,8 +4,23 @@
 #include "ApprovalTests.hpp"
 #include "FakeDatabase.h"
 
-TEST_CASE ("test_validate_and_add") {
-    auto productData = new ProductFormData("Sample product", "Lipstick", 5, 10, false);
+static string doValidateAndAdd(const string &name, const string &productType, int weight, int suggestedPrice,
+                               bool packagingRecyclable);
+
+TEST_CASE ("test_validate_and_add")
+{
+    CombinationApprovals::verifyAllCombinations(doValidateAndAdd,
+                                                std::vector<std::string> {"", "Sample product", "Sample Queen Product"},
+                                                std::vector<std::string> {"", "Lipstick", "Eyeshadow", "Mascara", "Foundation", "Unknown", "Blusher"},
+                                                std::vector<float> {-1, 5, 10, 11},
+                                                std::vector<float> {10, 11, 21, 26},
+                                                std::vector<bool> {true, false}
+                                                );
+}
+
+static string doValidateAndAdd(const string &name, const string &productType, int weight, int suggestedPrice,
+                               bool packagingRecyclable) {
+    auto productData = new ProductFormData(name, productType, weight, suggestedPrice, packagingRecyclable);
     auto db = new FakeDatabase();
     auto sut = new ProductService(db);
 
@@ -17,6 +32,5 @@ TEST_CASE ("test_validate_and_add") {
         responseAndProduct.append(" ");
         responseAndProduct.append(db->product->to_string());
     }
-
-    Approvals::verify(responseAndProduct);
+    return responseAndProduct;
 }
