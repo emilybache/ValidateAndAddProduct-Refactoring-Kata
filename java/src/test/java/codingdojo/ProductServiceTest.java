@@ -18,11 +18,7 @@ public class ProductServiceTest {
         Response response = sut.validateAndAdd(productData);
 
         // Assert
-        String productString = "";
-        if (db.product != null) {
-            productString = db.product.toString();
-        }
-        String responseAndProduct = response.toString() + " " + productString;
+        String responseAndProduct = response.toString() + " " + db.product.toString();
         verify(responseAndProduct);
 
     }
