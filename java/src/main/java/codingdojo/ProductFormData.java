@@ -36,7 +36,7 @@ public class ProductFormData {
         return suggestedPrice;
     }
 
-    public boolean isPackagingRecyclable() {
+    public boolean  isPackagingRecyclable() {
         return packagingRecyclable;
     }
 }

@@ -1,1 +1,30 @@
-Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Lipstick', weight=5.0, family=LIPS, range=BUDGET}
+Testing an optimized 28/672 scenarios:
+
+[, Lipstick, 5.0, 10.0, false] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Queen, , 5.0, 21.0, true] => Response{productId=0, statusCode=-2, message='Missing Type'}  
+[Sample product, Eyeshadow, 5.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Eyeshadow', weight=5.0, family=EYES, range=BUDGET} 
+[, Foundation, 5.0, 26.0, true] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Queen, Mascara, 5.0, 10.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Queen', type='Mascara', weight=5.0, family=LASHES, range=BUDGET} 
+[Sample product, Blusher, 5.0, 10.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Blusher', weight=5.0, family=SKIN, range=PROFESSIONAL} 
+[, Unknown, 5.0, 10.0, false] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Sample product, Lipstick, 8.0, 21.0, false] => Response{productId=0, statusCode=-1, message='Error - failed quality check for Queen Range'}  
+[, , 8.0, 10.0, false] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Queen, Eyeshadow, 8.0, 26.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Queen', type='Eyeshadow', weight=8.0, family=EYES, range=PROFESSIONAL} 
+[Queen, Foundation, 8.0, 11.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Queen', type='Foundation', weight=8.0, family=SKIN, range=PROFESSIONAL} 
+[, Mascara, 8.0, 21.0, true] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[, Blusher, 8.0, 21.0, false] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Queen, Unknown, 8.0, 21.0, true] => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}  
+[, Lipstick, 11.0, 11.0, true] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Sample product, , 11.0, 26.0, false] => Response{productId=0, statusCode=-2, message='Missing Type'}  
+[, Eyeshadow, 11.0, 10.0, false] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Queen, Foundation, 11.0, 21.0, false] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Queen', type='Foundation', weight=11.0, family=SKIN, range=PROFESSIONAL} 
+[Sample product, Mascara, 11.0, 11.0, true] => Response{productId=1, statusCode=0, message='Product Successfully Added'} Product{name='Sample product', type='Mascara', weight=11.0, family=LASHES, range=PROFESSIONAL} 
+[Queen, Blusher, 11.0, 11.0, true] => Response{productId=0, statusCode=-3, message='Error - weight too high'}  
+[Sample product, Unknown, 11.0, 11.0, false] => Response{productId=0, statusCode=-1, message='Unknown product type Unknown'}  
+[Queen, Lipstick, -2.0, 26.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[, , -2.0, 11.0, true] => Response{productId=0, statusCode=-2, message='Missing Name'}  
+[Sample product, Eyeshadow, -2.0, 21.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample product, Foundation, -2.0, 10.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Queen, Mascara, -2.0, 26.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Sample product, Blusher, -2.0, 26.0, true] => Response{productId=0, statusCode=-3, message='Weight error'}  
+[Queen, Unknown, -2.0, 26.0, false] => Response{productId=0, statusCode=-3, message='Weight error'}  
