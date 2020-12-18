@@ -9,8 +9,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ProductServiceTest {
     @Test
     void validateAndAdd() {
-        CombinationApprovals.verifyAllCombinations(
-        //CombinationApprovals.verifyBestCoveringPairs( // best covering pairs has fewer combinations
+        //CombinationApprovals.verifyAllCombinations(
+        CombinationApprovals.verifyBestCoveringPairs( // best covering pairs has fewer combinations
                 this::doValidateAndAdd,
                 new String [] {"Sample product", "", "Queen"},
                 new String [] {"Lipstick", "", "Eyeshadow", "Foundation", "Mascara", "Blusher", "Unknown"},
